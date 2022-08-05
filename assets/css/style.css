@@ -346,6 +346,22 @@ h2 {
   margin-top: 1.1rem;
 }
 
+footer {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-cards);
+}
+
+footer span {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--text-color);
+  margin-top: 1rem;
+}
+
 @media (min-width: 320px) and (max-width: 1078px) {
   body {
     display: flex;
